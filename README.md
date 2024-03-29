@@ -32,7 +32,7 @@
 5. Paste this link into your browser to see your hostel webpage.
 
 
-
+** All files in gitignore will appear in your folder after you execute terraform plan command**
 
 -------------------------Ignore this----------------------------------
 <!-- Login to AWS Root user
