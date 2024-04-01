@@ -11,6 +11,6 @@ terraform {
 # we have to makie changes for different users as admin 
 provider "aws" {
   region = "us-east-1"
-  access_key = "your_access_key"
-  secret_key = "your_secret_key"
+  access_key = "AKIAZI2LEZCJJYZZGE5E"
+  secret_key = "NT/QG3KrRRe2Cm52A8KbUdXvOtDQC8AvVQfkc7JE"
 }

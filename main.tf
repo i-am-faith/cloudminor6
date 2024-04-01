@@ -83,7 +83,7 @@ resource "aws_s3_object" "btc" {
 resource "aws_s3_object" "bubu" {
   bucket = aws_s3_bucket.mybucket.id
   key    = "bubu"
-  source = "bubu.jpg"
+  source = "bubu 2.jpg"
   acl = "public-read"
 }
 resource "aws_s3_object" "debu" {
