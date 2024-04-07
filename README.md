@@ -1,4 +1,19 @@
-# Hostel Website Deployment with Terraform and AWS S3
+# SwitchToBit
+SWITCH TO BIT Cryptocurrency &amp; MARKETS Website
+
+## Site Preview
+![Site Preview](assets/SitePreview.jpg)
+
+## Contribution
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+# Website Deployment with Terraform and AWS S3
 
 ## Prerequisites
 1. Install Terraform
@@ -24,7 +39,7 @@
     terraform apply -auto-approve
     ```
 
-## Accessing Hostel Website
+## Accessing Website
 1. Search for S3 in your AWS Account.
 2. Select your bucketname `[mys3websitebucket2024]`.
 3. Go to properties.
@@ -34,16 +49,3 @@
 
 ** All files in gitignore will appear in your folder after you execute terraform plan command**
 
--------------------------Ignore this----------------------------------
-<!-- Login to AWS Root user
-
-
-Search for IAM
-Select Users from left panel
-create user
-provide user access to AWS Management console
-I want to create an IAM User
-Set your password
-attach policies directly
-give AdministratorAccess
-create user -->
