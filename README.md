@@ -2,7 +2,7 @@
 SWITCH TO BIT Cryptocurrency &amp; MARKETS Website
 
 ## Site Preview
-![Site Preview](assets/SitePreview.jpg)
+![Site Preview](Images/SitePreview_PC.jpg)
 
 ## Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
