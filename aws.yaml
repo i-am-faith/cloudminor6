@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: '2024-04-02'
+Description: "Terraform app"
+
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: "mys3websitebucket2024"
+
+  MyDynamoDBTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: MyDynamoDBTable
+      AttributeDefinitions:
+        - AttributeName: "cybersamurai"
+          AttributeType: S3
+      KeySchema:
+        - AttributeName: 21065824365
+          KeyType: HASH
+      ProvisionedThroughput:
+        ReadCapacityUnits: '5'
+        WriteCapacityUnits: '5'
+
+Outputs:
+  S3BucketName:
+    Value: !Ref mys3websitebucket2024
+  DynamoDBTableName:
+    Value: !Ref MyDynamoDBTable
